@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'cv-api
+
+  Sample SAM Template for cv-api
+
+  '
+Globals:
+  Function:
+    Timeout: 3
+Resources:
+  CvApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      PackageType: Image
+      Architectures:
+      - arm64
+      ImageUri: cvapifunction:nodejs22.x-v1
+    Metadata:
+      DockerContext: /Users/elliotmtz/Documents/development/my-cv/cv-api/api
+      DockerTag: nodejs22.x-v1
+      Dockerfile: Dockerfile
+      SamResourceId: CvApiFunction
+Outputs:
+  CvApiFunction:
+    Description: My CV Lambda Function ARN
+    Value:
+      Fn::GetAtt:
+      - CvApiFunction
+      - Arn
+  CvApiFunctionIamRole:
+    Description: Implicit IAM Role created for My CV function
+    Value:
+      Fn::GetAtt:
+      - CvApiFunctionRole
+      - Arn

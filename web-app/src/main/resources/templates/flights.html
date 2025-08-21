@@ -1,0 +1,38 @@
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Flights</h1>
+        <h2>1. ¿Cuál es el nombre aeropuerto que ha tenido mayor movimiento durante el año?</h2>
+        <ul>
+            <li th:each="Airport : ${AirportsWithMostMovement}">
+                <h3>Aeropuerto con mayor movimiento: [[${Airport.AirportName}]] || Total Movimientos: [[${Airport.TotalMovements}]] </h3>
+            </li>
+        </ul>        
+
+        <h2>2. ¿Cuál es el nombre aerolínea que ha realizado mayor número de vuelos durante el año?</h2>
+        <ul>
+            <li th:each="Airline : ${AirlinesWithMostFlights}">
+                <h3>Aerolínea con mayor número de vuelos: [[${Airline.AirlineName}]] || Total Movimientos: [[${Airline.TotalFlights}]] </h3>
+            </li>
+        </ul>        
+
+        <h2>3. ¿En qué día se han tenido mayor número de vuelos?</h2>
+        <ul>
+            <li th:each="Day : ${DaysWithMostFlights}">
+                <h3>Día con mayor número de vuelos: [[${Day.DayOfFlight}]] || Total Movimientos: [[${Day.TotalFlights}]] </h3>
+            </li>
+        </ul>        
+
+        <h2>4. ¿Cuáles son las aerolíneas que tienen mas de 2 vuelos por día?</h2>
+        <ul th:if="${AirlinesWithMoreThan2Flights == null || AirlinesWithMoreThan2Flights.size() == 0 }">
+            <li><h3>No hay por el momento.</h3></li>
+        </ul>
+        <ul>
+            <li th:each="Airline : ${AirlinesWithMoreThan2Flights}">
+                <h3>Aerolínea con mas de 2 vuelos por día: [[${Airline.AirlineName}]] || Total Movimientos: [[${Airline.TotalFlights}]] </h3>
+            </li>
+        </ul>        
+    </body>
+</html>

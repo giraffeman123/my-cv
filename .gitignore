@@ -1,0 +1,9 @@
+.terraform/*
+.terraform.*
+terraform.*
+*.pem
+k8-config.env
+aws-test.pem
+envs/*
+remote-backend.tf
+.DS_Store

@@ -1,0 +1,33 @@
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Answers</h1>
+        <h2>1. Obtener el número de respuestas contestadas y no contestadas</h2>
+        <ul>
+            <li><h3>Respuestas Contestadas: [[${TotalQuestions.answeredQuestions}]] || Respuestas No Contestadas: [[${TotalQuestions.unAnsweredQuestions}]] </h3></li>
+        </ul>        
+        
+        <h2>2. Obtener la respuesta con mayor reputación</h2>
+        <ul>
+            <li><h3>Respuesta Con Mayor Reputación: Id -> <a th:href="${QuestionWithBetterReputation.link}">[[${QuestionWithBetterReputation.questionId}]]</a></h3>       </li>
+        </ul>        
+                
+        <h2>3. Obtener la respuesta con menor número de vistas</h2>
+        <ul>
+            <li><h3>Respuesta Con Menor Número de Vistas: Id -> <a th:href="${QuestionWithLessAmountVisits.link}">[[${QuestionWithLessAmountVisits.questionId}]]</a></h3>       </li>
+        </ul>        
+
+        <h2>4. Obtener la respuesta más vieja y más actual</h2>
+        <ul>
+            <li><h3>Respuesta Más Vieja: Id -> <a th:href="${OldestAndNewestQuestion.oldestAnswer.link}">[[${OldestAndNewestQuestion.oldestAnswer.questionId}]]</a></h3>       </li>
+            <li><h3>Respuesta Más Actual: Id -> <a th:href="${OldestAndNewestQuestion.newestAnswer.link}">[[${OldestAndNewestQuestion.newestAnswer.questionId}]]</a></h3>       </li>
+        </ul>                
+
+        <h2>5. Imprimir en consola del punto 2 al 5</h2>
+        <ol start="2">
+            <li th:each="question : ${Questions2To5}"><h3>Id -> <a th:href="${question.link}">[[${question.questionId}]]</a></h3></li>
+         </ol>
+    </body>
+</html>

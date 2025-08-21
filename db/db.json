@@ -1,0 +1,205 @@
+{
+    "profile_img":"https://elliotmartinez.dev/img/elliotwave.jpg",
+    "external_links":{
+       "linkedin":"https://www.linkedin.com/in/eduardo-palomino-4b281b191/",
+       "github":"https://github.com/giraffeman123",
+       "spotify":"https://open.spotify.com/artist/5R559XGI6J1YQX2usZbaNv?si=Q5zE7OhbR_6JQDxmlJ82hQ",
+       "facebook":"https://www.facebook.com/elliotwavemusic",
+       "youtube":"https://www.youtube.com/channel/UCtmb3wOHvG2FScpbHEJrDVA/featured?fbclid=IwAR0WR4oGETBb9Tcya_wTFDIk_9Otv9OOvguVXfzhrSM19c3cgDBy7H2CQCY",
+       "bandcamp":"https://elliotwave.bandcamp.com/music"
+    },
+    "about_me":"Experienced Engineer in areas such as web development(backend, database administration) and DevOps(AWS, Azure, Kubernetes). A dedicated and growth-driven professional with a relentless curiosity for learning and innovation. I approach challenges with a problem-solving mindset, a commitment to excellence, and a passion for continuous self-improvement—both technically and personally. My proactive attitude and adaptability allow me to thrive in dynamic environments while contributing meaningfully to my team and organization.",
+    "languages":[
+       {
+          "language":"spanish",
+          "percentage":100
+       },
+       {
+          "language":"english",
+          "percentage":90
+       },
+       {
+          "language":"french",
+          "percentage":70
+       }
+    ],
+    "academic_history":[
+       {
+          "school":"Universidad Autonoma de Baja California",
+          "duration":"August 2015 - December 2020"
+       },
+       {
+          "school":"Université Pierre et Marie Curie (Paris 6)",
+          "duration":"August 2018 - January 2019"
+       }
+    ],
+    "portfolio":[
+       {
+          "title":"Platform Engineer",
+          "company":"EPAM Systems",
+          "duration":"2025-Now",
+          "technologies":[
+             "Terraform",
+             "AWS CodePipeline",
+             "Datadog",
+             "Azure AKS",
+             "AWS EKS",
+             "Istio",
+             "Crossplane",
+             "ArgoCD",
+             "Helm"
+          ],
+          "description":"Optimized cloud infrastructure deployment processes using AWS and Azure services. Collaborated with team members to ensure seamless project delivery and alignment with objectives. Conducted software design, code reviews, and documentation to maintain high-quality standards. Leveraged expertise in Kubernetes, Terraform, and DevOps to enhance platform functionality and reliability. Utilized tools like ArgoCD and Crossplane to adopt GitOps, improving deployment workflows and platform efficiency."
+       },
+       {
+          "title":"Build Engineer",
+          "company":"EPAM Systems",
+          "duration":"March-October, 2024",
+          "technologies":[
+             "Terraform",
+             "AWS Lambda",
+             "AWS EventBridge",
+             "AWS RDS",
+             "IBM BAW",
+             "Powershell",
+             "Datadog",
+             "BigPanda",
+             "GitLab CI/CD"
+          ],
+          "description":"Established and enforced security policies and procedures to protect systems, reduce vulnerabilities, and apply security patches to critical systems and services. Ensured reliability, availability, and performance of key systems and services using tools such as BigPanda, Datadog, ServiceNow, and Jira. Designed, developed, and maintained automation tools and infrastructure to optimize deployment, configuration management, and operational tasks. Utilized Jira for issue tracking and project management. Monitored system performance and availability, promptly identifying and resolving issues. Led incident response efforts, troubleshooting and resolving issues via ServiceNow to minimize downtime and service disruptions. Collaborated with cross-functional teams, including developers, architects, and operations, to address challenges, resolve complex issues, and drive project completion. Communicated system status and performance updates effectively to stakeholders."
+       },
+       {
+          "title":"DevOps Engineer",
+          "company":"UABC",
+          "duration":"2023-2024",
+          "technologies":[
+             "Terraform",
+             "Mirantis Kubernetes",
+             "Helm",
+             "Prometheus",
+             "Docker",
+             "Fluent Bit",
+             "Nodejs",
+             "MariaDB",
+             "nginx",
+             "Keda",
+             "Spring Framework",
+             "Swagger"
+          ],
+          "description":"Configured multiple RedHat servers as worker or manager nodes for the kubernetes cluster taking into consideration firewallbackend compatibility, firewall rules, swap memory configurations. Implemented and configured GitLab helm chart and GitLab runners for running pipelines. Implemented and configured ingress-nginx-controller chart for load balancing and reverse proxy. Migrated more than 10 applications in Docker to Kubernetes using Helm charts and considering the monitoring, auto-scaling, and exposure of services outside the cluster. Implemented and configured kube-prometheus-stack helm chart for cluster monitoring, alert management and visualizing dashboard metrics. Developed an API in NodeJS that receives AlertManager alerts and sends them to a Google chat using the Google chat API. Developed Helm chart for defining prometheus alerts for services deployed inside the cluster Implemented and configured fluent-bit helm chart for logs aggregation and centralization of multiple services inside the cluster. Configured PostgreSQL database on a Ubuntu server for sending fluent-bit logs taking into consideration network security. Configured NFS on a Ubuntu server for volume provisioning of the Kubernetes cluster taking into consideration network security. Implemented and configured Istio, Prometheus server for Istio with federation to kube-prometheus-stack and Kiali helm chart for observability of services inside the cluster and mTLS protocol implementation. Implemented bash scripting for automating the installation of all the mentioned helm chart’s Provisioned AWS resources such as EC2, IAM roles, IAM policies, auto-scaling groups, target groups, ALB, security groups, VPC, subnets, route tables, NAT gateway, Internet gateway using Terraform. Implemented launch configurations of EC2 instances using user-data."
+       },
+       {
+          "title":"Software Engineer",
+          "company":"UABC",
+          "duration":"2022-2023",
+          "technologies":[
+             "Helm",
+             "LDAP",
+             "Google SDK",
+             "RabbitMQ",
+             "Nodejs",
+             "Informix IBM",
+             "PostgreSQL",
+             "MariaDB",
+             "Spring Framework",
+             "Swagger"
+          ],
+          "description":"Developed modules that consume web services and implemented OAuth 2.0 protocol with google. Containerized, packaged and deployed API’s using docker and docker-compose. Developed Informix functions for data querying and insertion Developed an API in NodeJS for token creation that consumes Informix functions Develop an API in NodeJS that implements LDAP and Google SDK for user creation, update, list. Developed an API in NodeJS that receives AlertManager alerts and sends them to a Google chat using the Google chat API. Developed MariaDB functions and stored procedures in a Koha database for data insertion and querying of MARC 21 XML schemas. Developed an API in NodeJS for querying bibliographic items and user info that consume Informix functions and stored procedures. Developed a Producer API in NodeJS for sending Emails that consumes Postgresql functions and sends info to RabbitMQ queues. Developed a Consumer API in NodeJS for sending Emails that consumes RabbitMQ queues and sends emails with Sparkpost. Containerized, packaged and deployed RabbitMQ with the help of Helm Charts considering the monitoring, auto-scaling, persistence storage and exposure of services outside the cluster. Migrated project main DB based in MySQL to PostgreSQL taking into consideration data sanitization, encoding issues(Latin1 to UTF-8) and restructuration of tables. Developed Informix and Postgresql functions for data querying."
+       },
+       {
+          "title":"Software Engineer",
+          "company":"SDL GROUP",
+          "duration":"2020-2022",
+          "technologies":[
+             "SQL Server",
+             "BootStrap4",
+             "Windows Services",
+             "C#",
+             "TFS",
+             "Entity Framework",
+             "Telerik"
+          ],
+          "description":"Maintained and developed software related to accounting. Developed a windows service that consumes SAT (Mexican IRS) web services using the SOAP protocol. Developed a windows service that sends scheduled emails as well as daily backend processing and web scraping jobs. Developed a C# script that generates scheduled Microsoft SQL Server backups that are sent to a S3 bucket using the AWS CDK. Re-factored software components using C# LINQ and normalized the main database using normal forms techniques. Also did tech support when it was needed."
+       },
+       {
+          "title":"Unity Developer",
+          "company":"Gamacon",
+          "duration":"October-December, 2019",
+          "technologies":[
+             "SQL Server",
+             "NodeJs",
+             "Unity"
+          ],
+          "description":"During my stay at Gamacon I developed a casual multiplayer game in Unity that added scores to a server in NodeJs."
+       },
+       {
+          "title":"Software Engineer",
+          "company":"Furukawa",
+          "duration":"July-September, 2019",
+          "technologies":[
+             "AWS",
+             "BootStrap4",
+             "SQLite",
+             "Django"
+          ],
+          "description":"During my stay at Furukawa QA department I developed a project that managed control plans and failures mode(for it's acronym FMEA)."
+       },
+       {
+          "title":"Software Engineer",
+          "company":"FRALUCS",
+          "duration":"July-September, 2018",
+          "technologies":[
+             "Java",
+             "Primefaces",
+             "Jersey",
+             "Hibernate"
+          ],
+          "description":"During my stay at FRALUCS I reverse engineered the inventory management and bill tracking software of the company."
+       },
+       {
+          "title":"Software Developer",
+          "company":"Instituto de Ingenieria UABC",
+          "duration":"2017-2018",
+          "technologies":[
+             "Java"
+          ],
+          "description":"Collaborated in a master's degree renewable enery project in which I developed a data processing system for an anemometer sensor CSAT3 3-D that is patented."
+       }
+    ],
+    "music_projects":[
+       {
+          "name":"Lo-Fi",
+          "description":"Some chill beats to relax & concentrate.",
+          "release_date":"2020",
+          "href_link":"https://elliotwave.bandcamp.com/album/-",
+          "album_img":"https://elliotmartinez.dev/img/lofi-album.jpg",
+          "genre":[
+             "ChillHop",
+             "Lo-Fi"
+          ]
+       },
+       {
+          "name":"Anemoia",
+          "description":"A concept album inspired by The Legend Of Zelda, Radiohead & a lot of nostalgia.",
+          "release_date":"2019-2020",
+          "href_link":"https://elliotwave.bandcamp.com/album/anemoia",
+          "album_img":"https://elliotmartinez.dev/img/anemoia-album.png",
+          "genre":[
+             "soundtrack",
+             "videogame",
+             "ambient",
+             "16 bit"
+          ]
+       },
+       {
+          "name":"Mugrillo",
+          "description":"A series of songs made for a platform Unity game.",
+          "release_date":"2018",
+          "album_img":"https://github.com/giraffeman123/Mugrillo/blob/master/Mugrillo/fondo_menu.png?raw=true",
+          "genre":[
+             "videogame",
+             "16 bit"
+          ]
+       }
+    ]
+ }
