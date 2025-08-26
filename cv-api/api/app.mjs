@@ -36,7 +36,7 @@ export const lambdaHandler = async (event, context) => {
     if(result.Item != null){
       response = {
         statusCode: 200,
-        body: result.Item,
+        body: JSON.stringify(result.Item),
       };
     }else{
       response = {

@@ -17,7 +17,7 @@ Resources:
       - arm64
       ImageUri: cvapifunction:nodejs22.x-v1
     Metadata:
-      DockerContext: /Users/elliotmtz/Documents/development/my-cv/cv-api/api
+      DockerContext: /Users/elliotmtz/Documents/development/my-cv-project/my-cv/cv-api/api
       DockerTag: nodejs22.x-v1
       Dockerfile: Dockerfile
       SamResourceId: CvApiFunction
