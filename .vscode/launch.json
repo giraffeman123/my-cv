@@ -1,6 +1,13 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "WebAppApplication",
+            "request": "launch",
+            "mainClass": "xaldigital.mx.webapp.WebAppApplication",
+            "projectName": "web-app"
+        },
+        {
             "type": "aws-sam",
             "request": "direct-invoke",
             "name": "cv-api:CvApiFunction (nodejs22.x)",
