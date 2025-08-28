@@ -7,6 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import com.google.gson.Gson;
+
 import jakarta.servlet.http.HttpServletRequest;
 import xaldigital.mx.webapp.service.ServiceLocator;
 import xaldigital.mx.webapp.service.entity.MyCV;
@@ -27,7 +29,10 @@ public class HomeController {
     public String mycv(Model model, HttpServletRequest request) throws FileNotFoundException  {        
         MyCV mycv = serviceLocator.getInstanceXalDigitalDao().getMyCV(request);
 
+        Gson gson = new Gson();
         model.addAttribute("mycv", mycv);
+        model.addAttribute("musicProjects", gson.toJson(mycv.getMusicProjects()));
+        model.addAttribute("externalLinks", gson.toJson(mycv.getExternalLinks()));
         return "/mycv";
     }        
 }
