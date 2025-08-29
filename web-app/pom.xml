@@ -8,12 +8,12 @@
 		<version>3.2.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>xaldigital.mx</groupId>
+	<groupId>elliot.mx</groupId>
 	<artifactId>web-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>web-app</name>
-	<description>Web App for XalDigital</description>
+	<description>Web App for getting my cv</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

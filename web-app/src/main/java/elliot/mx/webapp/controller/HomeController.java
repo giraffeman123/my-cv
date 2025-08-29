@@ -27,7 +27,7 @@ public class HomeController {
 
     @GetMapping("/mycv")
     public String mycv(Model model, HttpServletRequest request) throws FileNotFoundException  {        
-        MyCV mycv = serviceLocator.getInstanceXalDigitalDao().getMyCV(request);
+        MyCV mycv = serviceLocator.getInstanceCVDao().getMyCV(request);
 
         Gson gson = new Gson();
         model.addAttribute("mycv", mycv);

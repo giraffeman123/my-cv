@@ -1,4 +1,4 @@
-package xaldigital.mx.webapp;
+package elliot.mx.webapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

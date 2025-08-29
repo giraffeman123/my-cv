@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import elliot.mx.webapp.config.ApiConfig;
 
 @Component
-public class XalDigitalApi {
+public class CVApi {
 
     @Autowired
     private ApiConfig apiConfig;

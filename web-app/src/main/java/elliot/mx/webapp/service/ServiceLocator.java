@@ -3,26 +3,26 @@ package elliot.mx.webapp.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import elliot.mx.webapp.service.dao.XalDigitalDao;
+import elliot.mx.webapp.service.dao.CVDao;
 
 @Service
 public class ServiceLocator {
 
     @Autowired
-    private XalDigitalDao xalDigitalDao;   
+    private CVDao cvDao;   
     
 
     /***
      * 
-     * @return regresa la clase XalDigitalDao validando una sola instanciacion de esta
+     * @return regresa la clase CVDao validando una sola instanciacion de esta
      * para mas informacion checar patron Singleton
      */   
-    public XalDigitalDao getInstanceXalDigitalDao(){
-        if(xalDigitalDao == null){
-            xalDigitalDao = new XalDigitalDao();
-            return xalDigitalDao;
+    public CVDao getInstanceCVDao(){
+        if(cvDao == null){
+            cvDao = new CVDao();
+            return cvDao;
         }else{
-            return xalDigitalDao;
+            return cvDao;
         }        
     } 
    
