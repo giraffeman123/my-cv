@@ -1,4 +1,4 @@
-package xaldigital.mx.webapp.logs;
+package elliot.mx.webapp.logs;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

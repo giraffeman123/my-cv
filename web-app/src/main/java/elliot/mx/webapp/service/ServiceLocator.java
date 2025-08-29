@@ -1,9 +1,9 @@
-package xaldigital.mx.webapp.service;
+package elliot.mx.webapp.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import xaldigital.mx.webapp.service.dao.XalDigitalDao;
+import elliot.mx.webapp.service.dao.XalDigitalDao;
 
 @Service
 public class ServiceLocator {

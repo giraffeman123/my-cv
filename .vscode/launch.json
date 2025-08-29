@@ -4,6 +4,13 @@
             "type": "java",
             "name": "WebAppApplication",
             "request": "launch",
+            "mainClass": "elliot.mx.webapp.WebAppApplication",
+            "projectName": "web-app"
+        },
+        {
+            "type": "java",
+            "name": "WebAppApplication",
+            "request": "launch",
             "mainClass": "xaldigital.mx.webapp.WebAppApplication",
             "projectName": "web-app"
         },

@@ -1,4 +1,4 @@
-package xaldigital.mx.webapp.service.api;
+package elliot.mx.webapp.service.api;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,7 +8,7 @@ import java.net.URL;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import xaldigital.mx.webapp.config.ApiConfig;
+import elliot.mx.webapp.config.ApiConfig;
 
 @Component
 public class XalDigitalApi {

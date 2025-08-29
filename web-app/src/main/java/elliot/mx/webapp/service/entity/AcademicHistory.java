@@ -1,4 +1,4 @@
-package xaldigital.mx.webapp.service.entity;
+package elliot.mx.webapp.service.entity;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

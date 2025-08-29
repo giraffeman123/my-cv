@@ -1,4 +1,4 @@
-package xaldigital.mx.webapp.config;
+package elliot.mx.webapp.config;
 
 import org.springframework.boot.web.server.ErrorPage;
 import org.springframework.boot.web.server.WebServerFactoryCustomizer;

@@ -1,4 +1,4 @@
-package xaldigital.mx.webapp.logs;
+package elliot.mx.webapp.logs;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

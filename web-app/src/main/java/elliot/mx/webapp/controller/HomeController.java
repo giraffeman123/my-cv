@@ -1,4 +1,4 @@
-package xaldigital.mx.webapp.controller;
+package elliot.mx.webapp.controller;
 
 import java.io.FileNotFoundException;
 
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import com.google.gson.Gson;
 
+import elliot.mx.webapp.service.ServiceLocator;
+import elliot.mx.webapp.service.entity.MyCV;
 import jakarta.servlet.http.HttpServletRequest;
-import xaldigital.mx.webapp.service.ServiceLocator;
-import xaldigital.mx.webapp.service.entity.MyCV;
 
 
 @Controller

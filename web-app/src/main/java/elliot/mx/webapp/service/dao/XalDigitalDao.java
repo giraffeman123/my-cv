@@ -1,4 +1,4 @@
-package xaldigital.mx.webapp.service.dao;
+package elliot.mx.webapp.service.dao;
 
 import java.io.FileNotFoundException;
 import java.lang.reflect.Type;
@@ -12,11 +12,11 @@ import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 
+import elliot.mx.webapp.logs.Logger;
+import elliot.mx.webapp.service.api.XalDigitalApi;
+import elliot.mx.webapp.service.entity.MyCV;
+import elliot.mx.webapp.utils.Ipv4Utils;
 import jakarta.servlet.http.HttpServletRequest;
-import xaldigital.mx.webapp.logs.Logger;
-import xaldigital.mx.webapp.service.api.XalDigitalApi;
-import xaldigital.mx.webapp.service.entity.MyCV;
-import xaldigital.mx.webapp.utils.Ipv4Utils;
 
 @Component
 public class XalDigitalDao {
