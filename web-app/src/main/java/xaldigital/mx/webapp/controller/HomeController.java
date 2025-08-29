@@ -33,6 +33,7 @@ public class HomeController {
         model.addAttribute("mycv", mycv);
         model.addAttribute("musicProjects", gson.toJson(mycv.getMusicProjects()));
         model.addAttribute("externalLinks", gson.toJson(mycv.getExternalLinks()));
+        model.addAttribute("portfolio", gson.toJson(mycv.getPortfolio()));
         return "/mycv";
     }        
 }
