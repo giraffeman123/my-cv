@@ -16,4 +16,5 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
+      - echo "TESTING CODEPIPELINE!!!!!!!"
       # - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$ENVIRONMENT/$IMAGE_REPO_NAME:latest
