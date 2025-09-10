@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /home/ubuntu/my-cv-latest
 hooks:
-  Install:
+  AfterInstall:
     - location: scripts/deploy_webapp.sh
       timeout: 300
       runas: root      
