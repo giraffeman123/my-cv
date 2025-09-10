@@ -7,20 +7,20 @@
 echo "---------------------------------Stopping Tomcat---------------------------------"
 sudo systemctl stop tomcat
 
-# echo "---------------------------------Start Of Install Script: $date_of_deploy---------------------------------"
+echo "---------------------------------Start Of Install Script: $date_of_deploy---------------------------------"
 
-# # enter into git repository of project and fetch latests changes
-# cd /home/ubuntu/my-cv-latest/
+# enter into git repository of project and fetch latests changes
+cd /home/ubuntu/my-cv-latest/
 
-# # enter into web-app, build .war file and update tomcat
-# cd web-app/
-# echo "---------------------------------Building .WAR---------------------------------"
-# sudo mvn clean package 
-# sudo chown -R ubuntu:ubuntu target/WebApp.war
-# echo "---------------------------------Replacing old .WAR with latest---------------------------------"
-# sudo mv /home/ubuntu/my-cv-latest/web-app/target/WebApp.war /opt/tomcat/webapps/ROOT.war
-# sudo rm -rf /opt/tomcat/webapps/ROOT/
+# enter into web-app, build .war file and update tomcat
+cd web-app/
+echo "---------------------------------Building .WAR---------------------------------"
+sudo mvn clean package 
+sudo chown -R ubuntu:ubuntu target/WebApp.war
+echo "---------------------------------Replacing old .WAR with latest---------------------------------"
+sudo mv /home/ubuntu/my-cv-latest/web-app/target/WebApp.war /opt/tomcat/webapps/ROOT.war
+sudo rm -rf /opt/tomcat/webapps/ROOT/
 
-# echo "---------------------------------Restarting Tomcat---------------------------------"
-# sudo systemctl restart tomcat
+echo "---------------------------------Restarting Tomcat---------------------------------"
+sudo systemctl restart tomcat
 
