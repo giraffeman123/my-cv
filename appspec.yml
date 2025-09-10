@@ -3,12 +3,9 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/my-cv-latest
+    file_exists_behavior: OVERWRITE
 hooks:
   AfterInstall:
     - location: scripts/deploy_webapp.sh
       timeout: 300
       runas: ubuntu      
-  # ApplicationStart:
-  #   - location: deploy/application_start.sh
-  #     timeout: 300
-  #     runas: root      
