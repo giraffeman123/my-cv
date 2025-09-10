@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date_of_deploy=$(date +"%Y-%m-%d_%H-%M-%S")
+# date_of_deploy=$(date +"%Y-%m-%d_%H-%M-%S")
 
 # sudo touch "webappdeploy$date_of_deploy.log"
 
@@ -8,9 +8,6 @@ echo "---------------------------------Stopping Tomcat--------------------------
 sudo systemctl stop tomcat
 
 # echo "---------------------------------Start Of Install Script: $date_of_deploy---------------------------------"
-
-# # Instalacion paquetes necesarios
-# sudo apt-get update
 
 # # enter into git repository of project and fetch latests changes
 # cd /home/ubuntu/my-cv-latest/

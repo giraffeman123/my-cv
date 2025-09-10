@@ -7,7 +7,7 @@ hooks:
   Install:
     - location: scripts/deploy_webapp.sh
       timeout: 300
-      runas: ubuntu      
+      runas: root      
   # ApplicationStart:
   #   - location: deploy/application_start.sh
   #     timeout: 300
